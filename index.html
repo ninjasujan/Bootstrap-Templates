@@ -20,19 +20,42 @@
       .thumb:nth-child(even) {
         background-color: #eee;
       }
+      .row {
+        height: 300px;
+      }
+      img {
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+      }
     </style>
   </head>
 
   <body>
     <div style="max-width: 1200px; margin: 0 auto; padding: 10px;">
       <div class="container-fluid">
-        <div class="row" style="margin-top: 20px;">
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2 thumb">Thumbnail</div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2 thumb">Thumbnail</div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2 thumb">Thumbnail</div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2 thumb">Thumbnail</div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2 thumb">Thumbnail</div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2 thumb">Thumbnail</div>
+        <div class="row">
+          <div class="col-12 col-sm-4">
+            <img
+              src="./img-5.jpg"
+              alt="Image"
+              class="img-fluid rounded-circle img-thumbnail center-block"
+            />
+          </div>
+          <div class="col-12 col-sm-4">
+            <img
+              src="./img-5.jpg"
+              alt="Image"
+              class="img-fluid rounded-circle img-thumbnail center-block"
+            />
+          </div>
+          <div class="col-12 col-sm-4">
+            <img
+              src="./img-6.jpg"
+              alt="Image"
+              class="img-fluid rounded-circle img-thumbnail center-block"
+            />
+          </div>
         </div>
       </div>
     </div>
